@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flex Co - Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    #header, #footer {
+      background-color: #0d1b2a;
+      color: #fff;
+       width:100%;
+    }
+
+    #header {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+     
+    }
+    a {
+      text-decoration: none;
+      font-size: 23px;
+      margin-left: 15px;
+      color: #fff;
+    }
+
+    a:hover {
+      color: #ff0e82bf;
+    }
+
+    .logo img {
+      width: 100px;
+      height: 50px;
+    }
+
+    #footer {
+      padding: 15px;
+      font-size: 14px;
+      margin-top:0px;
+      justify-content: center;
+    }
+      .hero {
+      max-width: 100%;
+      margin: 0px;
+      min-height: 100vh;
+      padding: 30px;
+       background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVhbSUyMHdvcmt8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+      color: #333;
+      border-radius: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div class="logo"><img src="./logo.png" alt="logo"></div>
+    <div class="content">
+      <a href="./index.html"><b>Home</b></a>
+      <a href="./about.html"><b>About</b></a>
+      <a href="./contact.html"><b>Contact</b></a>
+    </div>
+  </div>
+  <div class="hero">
+    <center>
+        <h1 style="font-size: 50px;  background-color: rgba(0, 0, 0, 0.559);color: white;  margin-top: 200px; margin-bottom: 20px; padding: 25px; width: 650px;">Welcome to Flex Co</h1>
+    <p style="font-size: 23px; color: white; padding: 25px; width: 850px;" >
+      Flex Co is a modern, forward-thinking company dedicated to delivering innovative and flexible solutions for businesses. We combine technology, creativity, and strategy to help companies adapt and thrive in a dynamic world.
+    </p>
+    </center>
+  </div>
+  <div id="footer">
+    <center><p>&copy; 2025 Flex Co. All rights reserved.</p></center>
+  </div>
+</body>
+</html>

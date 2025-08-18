@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get in Touch</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+      body {
+      background-color: #fefefe;
+    }
+    #header, #footer {
+      background-color: #0d1b2a;
+      color: #fff;
+    }
+    #header {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    #header a {
+      text-decoration: none;
+      font-size: 23px;
+      margin-left: 15px;
+      color: #fff;
+    }
+
+    #header a:hover {
+      color: #ff0e82bf;
+    }
+     .logo img {
+      width: 100px;
+      height: 50px;
+    }
+     .container {
+      max-width: 1000px;
+      margin: 40px;
+      padding: 30px;
+      background-color: #7cf0ffe7;
+      color: #333;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .form-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .form-left, .form-right {
+      background-color: #ffffff;
+      color: #000;
+      border-radius: 12px;
+      padding: 25px;
+      width: 420px;
+    }
+    .form-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .form-row input, textarea {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+    button {
+      padding: 12px;
+      background-color: #003049;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #f9ce5a;
+      color: #000;
+    }
+    .info-box p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+    #footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div class="logo"><img src="./logo.png" alt="logo"></div>
+    <div class="content">
+      <a href="./index.html"><b>Home</b></a>
+      <a href="./about.html"><b>About</b></a>
+      <a href="./contact.html"><b>Contact</b></a>
+    </div>
+  </div>
+ <center>
+     <div class="container">
+    <h2 style="font-size: 32px;">Get in Touch</h2><br>
+    <p style="font-size: 18px; color: #666;">Fill up the form to get in touch with us.</p>
+
+    <div class="form-container">
+      <div class="form-left">
+        <h3 style="margin-bottom: 20px;">Fill the Form*</h3>
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+          </div>
+          <div class="form-row">
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Inquiry">
+          </div>
+          <textarea placeholder="Enter your Message..." required></textarea>
+          <br><br>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+      </div>
+      <div class="form-right">
+        <h3 style="margin-bottom: 20px;">Reach Us</h3>
+        <p><strong>Email:</strong> contact@flexco.com</p>
+        <p><strong>Phone:</strong> +91 12345 67890</p>
+        <p><strong>Address:</strong><br>Udupi,Karnataka</p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62116.74862611275!2d74.70572346611114!3d13.331805262427016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbb69938f41cf%3A0xcccc99e431850143!2sUdupi%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1754392387451!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+ </center>
+
+  <div id="footer">
+    <p>&copy; Copyrights @ 2025. All rights reserved.</p>
+  </div>
+</body>
+</html>
