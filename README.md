@@ -1,30 +1,17 @@
 # Flex Co Website
-
-This project is a responsive, multi-page website for *Flex Co, a fictional technology company specializing in web development, IoT integration, and embedded systems. It is built using **HTML* and *CSS* with a modern, clean design.
-
----
-
-##  Pages Included
-
-- *Home* (index.html) – Introduction about the company  
-- *About* (about.html) – Company vision,mission,core values and what we do 
-- *Contact* (contact.html) – Contact form layout for user inquiries  
+Flex Co is a simple company website designed using HTML5 and CSS3. It showcases basic web design with three pages – Home, About, and Contact.  The website provides company details, services, and a contact form for users to reach out easily.  
 
 ---
 
-##  Features
-
-- Responsive design for desktop and mobile
-- Reusable header, footer, and logo on all pages
-- Clean and semantic HTML structure
-- CSS grid and flexbox for layout
-- Simple contact form UI (no backend)
+## Features of the Website  
+- Home Page → Introduction with hero section and company highlights.  
+- About Page → Details about company mission, vision, values, and services.  
+- Contact Page → Contact form, company details, and embedded Google Map.  
+- Navigation Bar → Smooth navigation between all pages.  
+- Footer Section → Company name and copyright.  
 
 ---
 
-## Technologies Used
-
-- HTML
-- CSS
-
-
+## Technologies Used  
+- HTML5  
+- CSS3  
